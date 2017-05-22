@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tvFragmentIndicator"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Fragment Indicator"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:layout_height="35dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tvImageSliding"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Image Sliding"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:layout_height="35dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tvTabText"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Tab Text"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:layout_height="35dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tvIndicatorView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Indicator Viewr"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+                android:layout_height="35dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
